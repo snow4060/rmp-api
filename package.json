@@ -1,0 +1,25 @@
+{
+  "name": "ratemyprofessor-api",
+  "version": "1.0.0",
+  "description": " A wrapper for the Rate My Professor (RMP) GraphQL database",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snow4060/rmp-api.git"
+  },
+  "author": "snow4060",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snow4060/rmp-api/issues"
+  },
+  "homepage": "https://github.com/snow4060/rmp-api#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}
